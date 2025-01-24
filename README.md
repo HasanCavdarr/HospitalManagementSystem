@@ -2,12 +2,9 @@
 
 ## -------Türkçe-------
 
-### Özellikler
-- Doktor bilgilerini ekleme, güncelleme ve silme
-- Randevu oluşturma ve düzenleme
-- Hasta ve randevu yönetimi
-
 ### Kurulum
+"Bu proje, kısmen Türkçe isimlendirmeler içermektedir. Bu durumun anlaşılır olmasını umuyoruz. İleride tamamen İngilizceye çevrilmesi planlanmaktadır."
+
 1. **Projeyi Klonlayın:**
    ```bash
    git clone <repository-url>
@@ -18,19 +15,14 @@
      "Server=SERVER_ADI;Database=DATABASE_ADI;Trusted_Connection=True;"
      ```
 3. **Veritabanını Kurun:**
-   - `Database/hospital_database.sql` dosyasını SQL Server'da çalıştırın.
+   - `DataBase/script.sql` dosyasını SQL Server'da çalıştırın.
 4. **Uygulamayı Çalıştırın:**
    - Visual Studio ile projeyi başlatın.
 
 ---
 
 ## -------English-------
-
-### Features
-- Add, update, and delete doctor information
-- Create and manage appointments
-- Manage patients and appointments
-
+"This project includes some Turkish naming conventions. We hope this is understandable. A full translation to English is planned for the future."
 ### Setup
 1. **Clone the Project:**
    ```bash
@@ -42,7 +34,7 @@
      "Server=SERVER_NAME;Database=DATABASE_NAME;Trusted_Connection=True;"
      ```
 3. **Setup Database:**
-   - Run the `Database/hospital_database.sql` file in SQL Server.
+   - Run the `DataBase/script.sql` file in SQL Server.
 4. **Run the Application:**
    - Open the project in Visual Studio and start it.
 
